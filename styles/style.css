@@ -186,9 +186,21 @@
 }
 
 .lots__heading {
-  margin: 0 0 27px 40px;
+  padding: 0;
+  position: relative;
+  top: 5px;
   text-transform: uppercase;
-  font: 700 40px/1 "Raleway", sans-serif;
+  font-size: 40px;
+  margin-left: 40px;
+  margin-right: 891px;
+  margin-bottom: 27px;
+  text-align: left;
+  width: 121px;
+  height: 47px;
+  line-height: 1;
+  letter-spacing: 0em;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
 }
 
 .lots__card-list {
@@ -319,9 +331,18 @@
 }
 
 .footer .address {
+  position: relative;
+  top: 1px;
+  left: 1px;
   justify-self: start;
-  font: 400 18px/24.3px "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24.3px;
+  letter-spacing: 0;
+  text-decoration: none;
 }
+
 
 .footer .address a {
   text-decoration: underline;
