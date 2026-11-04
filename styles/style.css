@@ -56,10 +56,6 @@
   margin-left: 13px;
 }
 
-.header__links-list-item_no-bullit::after {
-  content: none;
-}
-
 .header__link {
   color: #000;
   text-decoration: underline;
