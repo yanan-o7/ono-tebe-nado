@@ -211,9 +211,15 @@
   overflow: hidden;
 }
 
-.card_type_film    { background-image: url("../images/card-lot-01.jpg"); }
-.card_type_book    { background-image: url("../images/card-lot-02.jpg"); }
-.card_type_picture { background-image: url("../images/card-lot-03.jpg"); }
+.card_type_film {
+  background-image: url("../images/card-lot-01.jpg");
+}
+.card_type_book {
+  background-image: url("../images/card-lot-02.jpg");
+}
+.card_type_picture {
+  background-image: url("../images/card-lot-03.jpg");
+}
 
 .card__title {
   position: relative;
